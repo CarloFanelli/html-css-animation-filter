@@ -94,10 +94,27 @@
     0% {
         transform: rotate(1turn);
     }
-
 }
 
+
+
 /* ex 11*/
+
+
+.ex-11-icon:hover {
+    animation: semi-rotation 1s linear;
+}
+@keyframes semi-rotation {
+    0% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
 
 /* ex 12*/
 
