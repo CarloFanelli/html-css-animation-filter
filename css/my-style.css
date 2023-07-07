@@ -61,7 +61,13 @@
     transition: all 3s;
 }
 /* ex 8*/
-
+.ex-8-img:hover{
+    filter: brightness(3) grayscale(1);
+    border-radius: 20px;
+}
+.ex-8-img{
+    transition: all 3s;
+}
 /* ex 9*/
 
 /* ex 10*/
