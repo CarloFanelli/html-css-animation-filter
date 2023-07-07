@@ -48,7 +48,12 @@
     transition: all 1.5s;
 }
 /* ex 6*/
-
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+.ex-6-img{
+    transition: filter 3s;
+}
 /* ex 7*/
 
 /* ex 8*/
