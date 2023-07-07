@@ -69,7 +69,14 @@
     transition: all 3s;
 }
 /* ex 9*/
-
+.ex-9-img:hover{
+    filter: invert(1) brightness(2.5);
+    border-radius: 20px;
+    width: 600px;
+}
+.ex-9-img{
+    transition: all 3s;
+}
 /* ex 10*/
 
 /* ex 11*/
